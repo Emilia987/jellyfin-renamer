@@ -11,7 +11,7 @@ rl.question('What is the name of the show? ', (showName) => {
   rl.question('What is the season number? ', (seasonNumber) => {
     rl.question('What is the year of the show? ', (year) => {
       const baseName = 'EP.';
-      const dirPath = 'C:/Users/Emily/Downloads/Jellyfin renamer';
+      const dirPath = 'C:/Users/***/Downloads/Jellyfin renamer';
       const files = fs.readdirSync(dirPath)
                     .filter(file => file.startsWith(baseName));
       
